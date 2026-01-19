@@ -85,6 +85,12 @@
   letter-spacing: 1px;
   font-size: 0.9rem;
 }
+@media (max-width: 768px) {
+    .about-badge-card {
+        display: none;
+    }
+}
+
 
 .about-badge-text {
   margin: 5px 0 0;
